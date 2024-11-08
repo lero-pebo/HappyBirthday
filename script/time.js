@@ -28,5 +28,5 @@ const countdownFunction = setInterval(() => {
 
 // Hàm chuyển tiếp trang
 function redirect() {
-    window.location.href = "index.html"; // Thay đổi URL ở đây
+    window.location.href = "card.html"; // Thay đổi URL ở đây
 }
