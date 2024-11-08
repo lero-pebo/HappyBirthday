@@ -3,7 +3,7 @@ const countdownElement = document.getElementById('countdown');
 const redirectButton = document.getElementById('redirectButton');
 
 // Thay đổi thời gian đếm ngược ở đây (ngày, giờ, phút, giây)
-const countdownDate = new Date("November 8, 2024 23:43:00").getTime();
+const countdownDate = new Date("November 9, 2024 00:00:00").getTime();
 
 const countdownFunction = setInterval(() => {
     const now = new Date().getTime();
